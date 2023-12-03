@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jessica Grogan Home</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #ffffff;
+        margin: 0;
+        padding: 0;
+        font-size: 19px; 
+    }
+
+    header {
+        background-color: #d4c1f0;
+        /* #3c2e52 */
+        color: rgb(0, 0, 0);
+        padding: 5px;
+        text-align: center;
+    }
+    .container {
+        margin: auto auto 10px auto;
+        border-radius: 7px;
+        max-width: 1000px;
+        box-shadow: 10px 5px 5px #E8E8E8;
+    }
+    
+    .interests, .publications, .contact {
+        
+        background-color: white;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 7px;
+        box-shadow: 10px 5px 5px #E8E8E8;
+    }
+    h2 {
+        margin-top: 0;   
+        margin-bottom: 20px;  
+        color: #000000;
+    }
+    .circle-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 20px auto;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+    /* ... your existing styles ... */
+
+    /* Tab styles */
+    /* Tab Styles */
+    .tabs {
+        display: flex;
+        border-bottom: 2px solid #e2e2e2;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        position: relative;
+        }
+
+        .tabs button {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 10px 15px;
+        font-size: 18px;
+        color: #b084c5;
+        transition: color 0.3s;
+        flex-grow: 1;
+        text-align: center;
+        border-right: 1px solid #3c2e52;   /* Add a right border to create the vertical line */
+        margin-right: -1px;  /* This will ensure the borders overlap and don't double up */
+        }
+
+        .tabs button.active,
+        .tabs button:hover {
+        color: #3c2e52;
+        }
+        .tabs button:last-child {
+        border-right: none;   /* Remove the right border for the last button */
+        }
+
+        .tab-content {
+        display: none;
+        }
+
+        .active-tab-content {
+        display: block;
+        }
+
+        footer {
+        padding: 10px 0;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        margin-top: 30px;
+        font-size: 14px;
+        }
+</style>
+</head>
